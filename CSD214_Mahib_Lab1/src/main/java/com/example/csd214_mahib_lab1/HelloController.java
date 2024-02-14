@@ -7,7 +7,8 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
-import java.net.URL; import java.util.ResourceBundle;
+import java.net.URL;
+import java.util.ResourceBundle;
 public class HelloController implements Initializable {
     @FXML
     private TableView<Userdata> tableview;
