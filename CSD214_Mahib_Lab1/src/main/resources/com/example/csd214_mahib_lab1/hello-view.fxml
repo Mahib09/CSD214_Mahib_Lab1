@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="624.0" prefWidth="706.0" spacing="20.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csd214_mahib_lab1.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label fx:id="welcomeText" text="Database Data">
+      <font>
+         <Font size="40.0" />
+      </font>
+   </Label>
+    <TableView fx:id="table" prefHeight="292.0" prefWidth="334.0">
+        <columns>
+            <TableColumn fx:id="userid-col" prefWidth="43.200008392333984" text="userid" />
+            <TableColumn fx:id="username-col" prefWidth="176.0" text="username" />
+            <TableColumn fx:id="email-col" prefWidth="286.40000915527344" text="Email" />
+            <TableColumn fx:id="password-col" prefWidth="160.00006103515625" text="Password" />
+        </columns>
+    </TableView>
+    <Button fx:id="loadbutton" onAction="#onloadbuttonClicked" text="Load Data" textAlignment="JUSTIFY" />
+</VBox>
