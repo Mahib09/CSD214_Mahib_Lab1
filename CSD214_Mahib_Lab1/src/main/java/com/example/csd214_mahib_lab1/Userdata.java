@@ -1,26 +1,48 @@
-package com.example.csd214_mahib_lab1.Model;
+package com.example.csd214_mahib_lab1;
 
 public class Userdata {
-    private  int userid;
+    private int userid;
     private String username;
     private String email;
     private String password;
+
     public Userdata(int userid, String username, String email, String password) {
         this.userid = userid;
         this.username = username;
         this.email = email;
         this.password = password;
     }
-    public int getUserId() {
+
+    public int getUserid() {
         return userid;
     }
-    public String getUserName() {
+
+    public void setUserid(int userid) {
+        this.userid = userid;
+    }
+
+    public String getUsername() {
         return username;
     }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
     public String getEmail() {
         return email;
     }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public String getPassword() {
         return password;
-    } }
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
 
