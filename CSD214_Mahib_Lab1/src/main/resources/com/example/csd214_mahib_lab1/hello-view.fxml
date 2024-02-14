@@ -17,12 +17,12 @@
          <Font size="40.0" />
       </font>
    </Label>
-    <TableView fx:id="table" prefHeight="292.0" prefWidth="334.0">
+    <TableView fx:id="tableview" prefHeight="292.0" prefWidth="334.0">
         <columns>
-            <TableColumn fx:id="userid-col" prefWidth="43.200008392333984" text="userid" />
-            <TableColumn fx:id="username-col" prefWidth="176.0" text="username" />
-            <TableColumn fx:id="email-col" prefWidth="286.40000915527344" text="Email" />
-            <TableColumn fx:id="password-col" prefWidth="160.00006103515625" text="Password" />
+            <TableColumn fx:id="useridcol" prefWidth="43.200008392333984" text="userid" />
+            <TableColumn fx:id="usernamecol" prefWidth="176.0" text="username" />
+            <TableColumn fx:id="emailcol" prefWidth="286.40000915527344" text="Email" />
+            <TableColumn fx:id="passwordcol" prefWidth="160.00006103515625" text="Password" />
         </columns>
     </TableView>
     <Button fx:id="loadbutton" onAction="#onloadbuttonClicked" text="Load Data" textAlignment="JUSTIFY" />
